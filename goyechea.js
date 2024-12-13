@@ -9,7 +9,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Ruta principal para servir el formulario
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'ejercicio3.html'));
+    res.sendFile(path.join(__dirname, 'public', 'ejercicio3_1.html'));
 });
 
 // Iniciar el servidor

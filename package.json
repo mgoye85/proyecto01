@@ -13,6 +13,8 @@
   "dependencies": {
     "bootstrap": "^5.3.3",
     "express": "^4.21.2",
-    "font-awesome": "^4.7.0"
+    "flatpickr": "^4.6.13",
+    "font-awesome": "^4.7.0",
+    "vanilla-masker": "^1.2.0"
   }
 }
