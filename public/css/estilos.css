@@ -1,0 +1,89 @@
+ 
+/* estilos.css */
+
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilo para el encabezado */
+/* Contenedor para el encabezado */
+.header {
+    width: 100%;
+    background-color: #fad33b;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end; /* Alinea el contenido a la derecha */
+    border-bottom: 4px solid black; /* Línea negra debajo del encabezado */
+}
+
+
+
+/* Estilo para los párrafos */
+p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px;
+
+}
+
+.container {
+    display: grid;
+    max-width: 800px;
+    gap: 20px;
+    width: 100%;
+    background-color: #fff;
+    grid-template-columns: auto; /* Columna principal y columna lateral */
+    grid-template-rows: auto;
+}
+
+
+.sidebar {
+    width: 250px;
+    padding: 20px;
+    background-color: #043a35;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.gravatar {
+    width: 200px; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+
+
+
+.main-content {
+    padding: 20px;
+    text-align: left;
+
+
+}
+
+/* Cambiar el estilo de la letra capital en párrafos debajo de "Experiencia" */
+.main-content h3 + h4 + p::first-letter,
+.main-content h4 + p::first-letter {
+    color: #FF5722; /* Cambia el color a naranja */
+    font-size: 2em; /* Agranda la letra inicial */
+    font-weight: bold; /* Aplica negrita */
+}
+
+
+/* Estilo para los enlaces */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
